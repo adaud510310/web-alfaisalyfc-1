@@ -1,0 +1,48 @@
+/*header*/
+
+
+
+
+
+.v5-main-header {
+    display: flex;
+}
+
+body {
+    padding-top: 74px;
+}
+
+
+
+
+
+.v5-news-slider-link {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -10px 10px 10px -7px rgb(100 100 100 / 25%);
+    transition: all ease 0.3s;
+    text-decoration: none !important;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+
+@media (max-width: 600px) {
+    .slider-menu-social-icons ul li a {
+        width: 38px;
+    }
+    .academy-slider-txt-first {
+        font-size: 20px;
+    }
+    .academy-slider-txt-sec {
+        font-size: 20px;
+    }
+    .academy-programs-section-title {
+        flex-direction: column;
+    }
+    .academy-programs-slider-cont {
+        max-width: unset;
+        width: 100%;
+    }
+}
