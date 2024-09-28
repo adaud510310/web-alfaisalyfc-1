@@ -259,7 +259,9 @@ a {
 a:hover {
     color: #150202;
 }
-
+.text-white{
+    text-decoration: none;
+}
 
 @media (max-width:1023px){
     header{
